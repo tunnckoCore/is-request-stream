@@ -1,0 +1,21 @@
+{
+  "name": "is-request-stream",
+  "version": "0.0.0",
+  "description": "Check that given stream is request stream",
+  "repository": "tunnckoCore/is-request-stream",
+  "author": "Charlike Mike Reagent <@tunnckoCore> (http://www.tunnckocore.tk)",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "standard && node test.js"
+  },
+  "dependencies": {
+    "is-stream": "~1.0.1"
+  },
+  "devDependencies": {
+    "assertit": "^0.1.0",
+    "tmp-file": "^1.0.0",
+    "tmp-filepath": "^1.0.0"
+  },
+  "keywords": []
+}
