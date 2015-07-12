@@ -17,5 +17,15 @@
     "tmp-file": "^1.0.0",
     "tmp-filepath": "^1.0.0"
   },
-  "keywords": []
+  "keywords": [
+    "check",
+    "is",
+    "isrequest",
+    "isstream",
+    "req",
+    "request",
+    "stream",
+    "validate",
+    "value"
+  ]
 }
