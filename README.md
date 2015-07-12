@@ -1,8 +1,8 @@
 # [is-request-stream][author-www-url] [![npmjs.com][npmjs-img]][npmjs-url] [![The MIT License][license-img]][license-url] 
 
-> Check that given stream is request stream
+> Check that given value is request stream
 
-[![code climate][codeclimate-img]][codeclimate-url] [![standard code style][standard-img]][standard-url] [![travis build status][travis-img]][travis-url] [![coverage status][coveralls-img]][coveralls-url] [![dependency status][david-img]][david-url]
+[![code climate][codeclimate-img]][codeclimate-url] [![standard code style][standard-img]][standard-url] [![travis build status][travis-img]][travis-url] [![cov status][cov-img]][cov-url] [![dependency status][david-img]][david-url]
 
 
 ## Install
@@ -58,6 +58,9 @@ But before doing anything, please read the [CONTRIBUTING.md](./CONTRIBUTING.md) 
 
 [codeclimate-url]: https://codeclimate.com/github/tunnckoCore/is-request-stream
 [codeclimate-img]: https://img.shields.io/codeclimate/github/tunnckoCore/is-request-stream.svg
+
+[cov-url]: https://codeclimate.com/github/tunnckoCore/is-request-stream
+[cov-img]: https://img.shields.io/codeclimate/coverage/github/tunnckoCore/is-request-stream.svg
 
 [travis-url]: https://travis-ci.org/tunnckoCore/is-request-stream
 [travis-img]: https://img.shields.io/travis/tunnckoCore/is-request-stream.svg

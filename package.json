@@ -1,7 +1,7 @@
 {
   "name": "is-request-stream",
   "version": "0.0.0",
-  "description": "Check that given stream is request stream",
+  "description": "Check that given value is request stream",
   "repository": "tunnckoCore/is-request-stream",
   "author": "Charlike Mike Reagent <@tunnckoCore> (http://www.tunnckocore.tk)",
   "main": "index.js",
