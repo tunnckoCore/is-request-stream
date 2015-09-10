@@ -7,7 +7,7 @@
 
 'use strict'
 
-var isStream = require('is-stream')
+var isStream = require('is-node-stream')
 
 module.exports = function isRequestStream (stream) {
   if (!isStream(stream)) {

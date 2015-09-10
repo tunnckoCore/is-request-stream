@@ -10,7 +10,7 @@
     "test": "standard && node test.js"
   },
   "dependencies": {
-    "is-stream": "~1.0.1"
+    "is-node-stream": "^1.0.0"
   },
   "devDependencies": {
     "assertit": "^0.1.0",
