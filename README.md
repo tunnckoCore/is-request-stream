@@ -8,7 +8,6 @@
 ## Install
 ```
 npm i is-request-stream --save
-npm test
 ```
 
 
@@ -21,7 +20,7 @@ var http = require('http')
 var stream = require('stream')
 var isRequestStream = require('is-request-stream')
 
-var req = http.get('http://requestb.in/p21o4xp2')
+var req = http.get('http://www.tunnckocore.tk')
 
 isRequestStream(req) //=> true
 isRequestStream(new net.Socket()) //=> false
@@ -33,10 +32,14 @@ isRequestStream(new stream.Duplex()) //=> false
 
 
 ## Related
-- [is-stream](https://github.com/sindresorhus/is-stream): Check if something is a Node.js stream
-- [is-missing](https://github.com/tunnckocore/is-missing): Check that given `name` or `user/repo` exists in npm registry or in github as user repository.
+- [is-async-function](https://github.com/tunnckocore/is-async-function): Check that given function is async (callback) function or not. Trying to… [more](https://github.com/tunnckocore/is-async-function)
+- [is-child-process](https://github.com/tunnckocore/is-child-process): Checks whether a value is child process result, which in case… [more](https://github.com/tunnckocore/is-child-process)
+- [is-emitter](https://github.com/tunnckocore/is-emitter): Check that given value is EventEmitter, not so strict as `is-node-emitter`.
+- [is-kindof](https://github.com/tunnckocore/is-kindof): Check type of given javascript value. Support promises, generators, streams,… [more](https://github.com/tunnckocore/is-kindof)
+- [is-missing](https://github.com/tunnckocore/is-missing): Check that given `name` or `user/repo` exists in npm registry or in github as user… [more](https://github.com/tunnckocore/is-missing)
+- [is-node-emitter](https://github.com/tunnckocore/is-node-emitter): Strictly checks that given value is nodejs EventEmitter. It's easy, because… [more](https://github.com/tunnckocore/is-node-emitter)
+- [is-node-stream](https://github.com/tunnckocore/is-node-stream): Strictly and correctly checks if value is a nodejs stream.
 - [is-typeof-error](https://github.com/tunnckocore/is-typeof-error): Check that given value is any type of error and instanceof Error
-- [is-kindof](https://github.com/tunnckocore/is-kindof): Check type of given javascript value. Support promises, generators, streams, and native types. Thin wrapper around `kind-of` module.
 
 
 ## Contributing
@@ -93,5 +96,5 @@ But before doing anything, please read the [CONTRIBUTING.md](./CONTRIBUTING.md) 
 [freenode-url]: http://webchat.freenode.net/?channels=charlike
 [freenode-img]: https://img.shields.io/badge/freenode-%23charlike-5654a4.svg
 
-[new-message-url]: https://github.com/tunnckoCore/messages
-[new-message-img]: https://img.shields.io/badge/send%20me-message-green.svg
+[new-message-url]: https://github.com/tunnckoCore/ama
+[new-message-img]: https://img.shields.io/badge/ask%20me-anything-green.svg
